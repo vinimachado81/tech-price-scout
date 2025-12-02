@@ -76,7 +76,7 @@ Clone o repositório:
 
 Bash
 
-git clone https://github.com/SEU-USUARIO/tech-price-scout.git
+git clone https://github.com/vinimachado81/tech-price-scout.git
 cd tech-price-scout
 Crie um ambiente virtual (Recomendado):
 
