@@ -6,7 +6,7 @@
 
 > **"O mundo real é sujo. O valor está em quem sabe limpar e estruturar."**
 
-## Sobre o Projeto
+##  Sobre o Projeto
 
 O **TechPrice Scout** é um projeto de Engenharia de Dados focado na construção de um pipeline **ETL (Extract, Transform, Load)** para monitoramento de preços de hardware.
 
@@ -65,10 +65,50 @@ monitor-precos/
 ├── main.py             # Orquestrador do Pipeline
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Documentação
+🚀 Como Rodar Localmente
+Pré-requisitos
+Python 3 instalado.
+
+Passo a passo
+Clone o repositório:
+
+Bash
+
+git clone [https://github.com/SEU-USUARIO/tech-price-scout.git](https://github.com/SEU-USUARIO/tech-price-scout.git)
+cd tech-price-scout
+Crie um ambiente virtual (Recomendado):
+
+Bash
+
+python -m venv venv
+# No Windows:
+venv\Scripts\activate
+# No Linux/Mac:
+source venv/bin/activate
+Instale as dependências:
+
+Bash
+
+pip install -r requirements.txt
+Execute o Pipeline:
+
+Bash
+
+python main.py
+O script irá criar o banco de dados automaticamente na primeira execução.
+
+ Próximos Passos (Roadmap)
+[ ] Implementar Dashboards com Streamlit para visualização dos preços.
+
+[ ] Adicionar notificação via Telegram quando o preço atingir um alvo.
+
+[ ] Dockerizar a aplicação para rodar em nuvem.
+
+[ ] Migrar do SQLite para PostgreSQL.
 
 ##  Contato
 
 Gostou do projeto? Vamos conectar!
 
-* **LinkedIn:** [Clique aqui para acessar](https://www.linkedin.com/in/vinícius-machado-de-carvalho81/))
-* **Email:** [Envie um email](mailto:vinimachado81@gmail.com)
+* **LinkedIn:** [Acesse meu perfil](https://www.linkedin.com/in/vinícius-machado-de-carvalho81/)
+* **Email:** [Entre em contato](mailto:vinimachado81@gmail.com)
