@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- NOSSAS REGRAS EXTRAS ---
+
+# Ignorar banco de dados SQLite (Importante!)
+*.db
+*.sqlite3
+
+# Garantir que a pasta venv seja ignorada
+venv/
+.venv/
+env/
+
+# Dados brutos baixados (Opcional, mas recomendado)
+data/raw/*
+!data/raw/.gitkeep
