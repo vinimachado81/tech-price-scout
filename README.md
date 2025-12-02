@@ -65,7 +65,7 @@ monitor-precos/
 ├── main.py             # Orquestrador do Pipeline
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Documentação
-🚀 Como Rodar Localmente
+Como Rodar Localmente
 Pré-requisitos
 Python 3 instalado.
 
